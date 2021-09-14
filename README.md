@@ -2,5 +2,7 @@
 
 
 
-__Repositorio criado no intuito de documentar a mi evolução em JS.__  :eyeglasses:
+__Repository criado no intuito de documentar a mi evolution em JS.__  :eyeglasses:
+
+- 
 
