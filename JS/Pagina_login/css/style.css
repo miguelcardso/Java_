@@ -1,0 +1,147 @@
+/*Geral*/
+@import url("//fonts.googleapis.com/css2?family=Actor:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    color:#323232;
+
+}
+
+body{
+    font-family: Helvetica;
+    background-image: url(../img/x4voijok.jpg);
+    background-size: cover;
+    /*background-position-y:-200px*/ /*Para ajustar a imagem de fundo.*/ 
+}
+
+textarea:focus{
+    outline:none;
+}
+
+a,label{
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+a:hover{
+    color:rgb(110, 184, 184)
+}
+
+#login_container{
+    background-color:#FFF;
+    width: 400px;
+    /*Largura*/margin-left: auto;
+    margin-right:auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    text-align: center;
+    animation-name: fades;
+    animation-duration:1s;
+}
+
+form{
+    margin-top:30px;
+    margin-bottom: 40px;
+  
+}
+
+label,input{
+    display: block;
+    width: 100%; /*Largura de 100%*/
+    text-align: left;
+}
+
+input{
+    border-top: 0px;
+    border-left: 0px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    outline:none;
+}
+
+ input:focus{
+     border-bottom: 1px	solid #83e1fe;
+}
+#rec_senha{
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border:none;
+    height: 40px; /* Altura */
+    margin-top:30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: linear-gradient(45deg, #75bef7, #36a0fd);
+    color:rgb(246, 246, 246);
+    cursor: pointer;
+}
+
+#social_conteiner,p{
+    margin-bottom: 20px;
+}
+
+#social_conteiner i{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #FFF;
+    margin: 0 5px;
+}
+
+.fa-facebook{
+    background-color:#3B5998;
+
+}
+
+.fa-linkedin{
+    background-color:#3B5998;
+}
+
+#register{
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+#logo{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+
+/* Heading */
+#login_container h1{
+    font-family:'Actor', sans-serif;
+}
+
+
+
+@keyframes fades {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+
+}

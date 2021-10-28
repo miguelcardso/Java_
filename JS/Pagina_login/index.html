@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="imagex/png" href="img/logo_1_.ico">
+    <script src="https://kit.fontawesome.com/300af2bd40.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id='login_container'>
+        <img src="img/logo.gif" alt="logo" id="logo" width=20 height=30>
+        <h1>Login</h1>
+        <form action = "">
+            <label for="email">E-mail</label>
+            <input type="email" name='email' id="email" placeholder="Digite seu e-mail" autocomplete="">
+            <label for="password">Senha</label>
+            <input type="password" name='password' id="password" placeholder="Digite sua senha." autocomplete="">
+            <a href="http://" id= 'rec_senha'>Esqueceu a senha ?</a>
+            <input type="submit" onmouseover="acao()" onmouseleave="acao2()" value="Login" id="login">
+        </form>
+        <div id= "social_conteiner">
+            <p>Entre em suas redes sociais.</p>
+            <a href="https://www.facebook.com/">
+             <i class="fab fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div id="register">
+            <p>Ainda não tem uma conta ?</p>
+            <a href="https://www.facebook.com/">Registrar-se</a>
+        </div>
+    </div>
+    <script>
+        var a = document.getElementById('login')
+        function acao(){
+            a.style.backgroundColor = 'rgb(151, 216, 224)';
+            
+        }
+        function acao2(){
+            a.style.backgroundColor = 'rgb(110, 184, 184)'
+        }
+    </script>
+</body>
+</html>
